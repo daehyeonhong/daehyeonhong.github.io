@@ -62,3 +62,6 @@
 2. change_server_port
     + sudo vi /var/lib/tomact8/conf/server.xml
     \<Connector port="XXXX"\>
+
+## Oracle_Error
+1. Lsnrctl services

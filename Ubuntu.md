@@ -66,13 +66,6 @@
 
 1. sudo apt-get install tomcat8
 2. change_server_port
-<<<<<<< HEAD
-    + sudo vi /var/lib/tomact8/conf/server.xml
-    \<Connector port="XXXX"\>
-
-## Oracle_Error
-1. Lsnrctl services
-=======
    - sudo vi /var/lib/tomact8/conf/server.xml
      \<Connector port="XXXX"\>
 
@@ -101,4 +94,3 @@ quit
 
 2. link_tomcat8
    - ln -s /usr/share/java/mysql-connector-java.jar /usr/share/tomcat8/lib/mysql-connector-java.jar
->>>>>>> 69d3a3b34155aa357170741d4742fa767a13c55a
